@@ -23,7 +23,7 @@ function useHomeCard(setfilture) {
       // Handle errors here
       console.error("Error fetching data:", error);
     }
-  };
+  }
 
   return card
 }

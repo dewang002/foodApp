@@ -1,0 +1,14 @@
+### test case file names
+#### for eg:if you have a Nav component
+* Nav.test.js
+* Nav.test.ts
+* Nav.spec.js
+* Nav.spec.ts
+***
+## So what ever you want to test you have to put it in side __tests__ folder and use the syntax mention above **sum.text.js** 
+### then inside that sum we write a like this 
+**test(" first a string , add what everhere ",()=>{**
+      const result=sum(2,4)  // over here sum component is imported overhere and this function just add two number.
+      _assurtion_
+      expect(result).toBe(6)
+**})** 

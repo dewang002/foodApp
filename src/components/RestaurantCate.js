@@ -11,7 +11,7 @@ function RestaurantCate({data,showitems,setshowitems}) {
        <span>🔽</span>
         </div> 
         <div className='p-2 '>
-            {showitems&&<Items items={data}  />}
+            {showitems&&<Items items={data} btn={"Add+"}  />}
         </div>
     </div>
   )
