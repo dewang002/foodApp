@@ -6,6 +6,6 @@ const AppStore = configureStore({
     reducer:{
         cart:cartSlice,
     }
-},__REDUX_DEVTOOLS_EXTENSION__()); //ye redux devtool funt jo hai ye lagaya so that we can see our store how its working.
+}); //ye redux devtool funt jo hai ye lagaya so that we can see our store how its working.
 
 export default AppStore;
